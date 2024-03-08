@@ -3,13 +3,13 @@ kind: Service
 metadata:
   name: valaxy-service
   labels:
-    app: regapp 
+    app: regapp
 spec:
   selector:
-    app: regapp 
+    app: regapp
 
   ports:
-    - port: 8080
+    - port: 8081
       targetPort: 8080
 
   type: LoadBalancer
